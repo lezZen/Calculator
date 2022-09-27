@@ -1,0 +1,44 @@
+html, body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(142, 190, 235, 0.377);
+}
+#container{
+    display: flex;
+    flex-flow: column;
+    height: 450px;
+    width: 350px;
+    align-self: center;
+    background-color: black;
+}
+#container div{
+    flex: 5;
+    display: flex;
+}
+#screen{
+    color: azure;
+    background-color: rgb(48, 47, 46);
+    overflow: hidden;
+}
+button{
+    flex: 1 ;
+    background-color: rgb(160, 168, 170);
+    margin: 0;
+    padding: 0px;
+    border: 1px solid black;
+}
+button:hover{
+    color: rgba(255, 136, 0, 0.822);
+}
+button:active{
+    filter: brightness(0.85);
+}
+#zero{
+    flex: 2.03;
+}
+.number{
+    background-color: rgb(219, 223, 223);
+}
